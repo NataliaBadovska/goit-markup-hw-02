@@ -7,7 +7,7 @@
    --secondary-bgc:#2F303A;
 }
 body {
-   background-color: #E5E5E5;
+   background-color:var(--primery-white-color);
    color: var(--primary-text-color);
    font-family: Roboto, sans-serif;
    letter-spacing: 0.03em;
@@ -92,6 +92,10 @@ body {
      .features-title{
         color: var(--secondary-text-color);
          line-height: 1.1;
+     }
+
+     .team{
+      background-color:#F5F4FA ;
      }
 
      .team-title{
